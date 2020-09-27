@@ -1,21 +1,8 @@
-// For format details, see https://aka.ms/vscode-remote/devcontainer.json or this file's README at:
-// https://github.com/microsoft/vscode-dev-containers/tree/v0.134.0/containers/python-3
 {
-	// Set *default* container specific settings.json values on container create.
-	"settings": { 
-		"terminal.integrated.shell.linux": "/bin/bash"
-	},
-
-	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": [
-	],
-
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [9000],
-
+	"forwardPorts": [3000],
 	// Comment out to connect as root instead.
 	"remoteUser": "vscode",
-
 	"containerEnv": {
 		"TEAMS_CLOUD_DEPLOYMENT_ENV": "jun1"
 	}
