@@ -4,7 +4,7 @@
 	// Comment out to connect as root instead.
 	"remoteUser": "vscode",
 	"containerEnv": {
-		"TEAMS_CLOUD_DEPLOYMENT_ENV": "jun1"
+		"TEAMS_CLOUD_DEPLOYMENT_ENV": "zhendemo"
 	},
 	"postCreateCommand": "bash .devcontainer/setup.sh"
 }
