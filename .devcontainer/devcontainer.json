@@ -1,12 +1,6 @@
 // For format details, see https://aka.ms/vscode-remote/devcontainer.json or this file's README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.134.0/containers/python-3
 {
-	"name": "Python 3",
-	"build": {
-		"dockerfile": "Dockerfile",
-		"context": ".."
-	},
-
 	// Set *default* container specific settings.json values on container create.
 	"settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash"
